@@ -1,4 +1,4 @@
-package org.example.hm5;
+package org.example;
 
 import java.util.*;
 
@@ -116,7 +116,7 @@ public class ExpressionCalculator {
     }
 
     public Queue<String> getRpn(String expr) {
-        Tokenizer tokenizer = new Tokenizer(expr);
+        org.example.hm5.Tokenizer tokenizer = new org.example.hm5.Tokenizer(expr);
         Queue<String> result = new LinkedList<>();
         Stack<String> stack = new Stack<>();
         Queue<String> resultFn;

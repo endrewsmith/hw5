@@ -1,12 +1,11 @@
 package org.example;
 
-import org.example.hm5.ExpressionCalculator;
 import org.example.hm5.Tokenizer;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-public class HomeWork5Test {
+public class HomeWorkTest {
 
     // Проверим вспомогательные методы size
     @Test
